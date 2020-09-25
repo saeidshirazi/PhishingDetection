@@ -32,10 +32,10 @@ class ContactUs(models.Model):
     created=models.DateTimeField(auto_now_add=True)
     updated_at=models.DateTimeField(auto_now_add=True)
     contact_name=models.CharField(max_length=100, default='')
-    url_tel =  models.URLField(default="https://t.me/mahana_app", max_length=200)
-    url_ins =  models.URLField(default="www.instagram.com/ego_official2018", max_length=200)
+    url_tel =  models.URLField(default="https://t.me/", max_length=200)
+    url_ins =  models.URLField(default="www.instagram.com/", max_length=200)
     url_site = models.URLField(default="https://www.danapco.com/", max_length=200)
-    phone_number = PhoneNumberField(default='+989010979406')
+    phone_number = PhoneNumberField(default='+98901123123')
 
 
     class Meta:
